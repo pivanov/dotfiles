@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#refresh shell
+alias refresh="source ~/.bashrc"
+
+#alias
+alias c="clear"
+alias g="git"
+alias ll="ls -lhaG"
+
+#gaia
+alias lint="gjslint --nojsdoc"
+alias adbf="adb forward tcp:6000 localfilesystem:/data/local/debugger-socket"
+alias debug="rm -rf profile/ && DEBUG=1 make && ffn"
+
+#git
+alias glog="git log --format='%Cgreen%h%Creset %C(cyan)%an%Creset - %s' --graph"
+
+

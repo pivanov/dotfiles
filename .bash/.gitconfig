@@ -1,0 +1,23 @@
+[user]
+	name = Pavel Ivanov
+	email = pivanov@mozilla.com
+[color]
+	ui = true
+[core]
+	editor = subl -w
+	excludesfile = /Users/pivanov/Dropbox/pivanov/settings/git/.gitignore
+[alias]
+  a    = add
+  s    = status --short -b
+  c    = commit -m
+  d    = diff
+  dc   = diff --cached
+  co   = checkout
+  br   = branch
+  last = log -1 HEAD
+  fu   = fetch upstream
+  fo   = fetch origin
+  mu   = merge upstream/master
+  re   = reset --soft upstream/master
+[push]
+	default = current
